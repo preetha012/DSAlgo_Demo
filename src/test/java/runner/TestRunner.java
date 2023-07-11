@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
 		features = {"src/test/resources/features"}, //location of feature files
 		glue= {"stepdefinition_DSAlgo","hooks_DSAlgo"})//location of step definition files
 		//tags =  "@reg ")  //tags from feature file
-			//tags= "@Graph")
+			//tags= "@Link")
 
 public class TestRunner 
 	//extends AbstractTestNGCucumberTests

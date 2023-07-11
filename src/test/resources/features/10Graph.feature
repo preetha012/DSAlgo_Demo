@@ -85,7 +85,7 @@ Feature: Graph Page
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
   @Graph10
   Scenario Outline: The user is able to get the error message for invalid syntax
@@ -96,4 +96,4 @@ Feature: Graph Page
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |

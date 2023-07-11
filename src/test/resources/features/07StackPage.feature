@@ -84,7 +84,7 @@ Feature: Stack Page
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
   @Stack10
   Scenario Outline: The user is able to get the error message for invalid syntax
@@ -95,7 +95,7 @@ Feature: Stack Page
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |
 
   @Stack11
   Scenario: The user is able to navigate to "Applications" in stack Page

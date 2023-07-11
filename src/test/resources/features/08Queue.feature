@@ -85,7 +85,7 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
   @Queue10
   Scenario Outline: The user is able to get the error message for invalid syntax
@@ -96,7 +96,7 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |
 
   @Queue11
   Scenario: The user is able to navigate to "Queue Operations" in Queue Page

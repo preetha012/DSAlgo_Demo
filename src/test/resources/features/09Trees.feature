@@ -51,7 +51,7 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
 @Tree6
   Scenario Outline: The user is able to get the error message for invalid syntax
@@ -62,7 +62,7 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |
 
   @Tree7
   Scenario: The user is able to navigate to "Terminologies" Page
@@ -119,7 +119,7 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
   @Tree14
   Scenario Outline: The user is able to get the error message for invalid syntax
@@ -130,5 +130,5 @@ Feature: Title of your feature
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |
 

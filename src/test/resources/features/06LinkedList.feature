@@ -119,7 +119,7 @@ Feature: Linked List
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         0 |
+      | pythonCode |         10 |
 
   @Link13
   Scenario Outline: The user getting error message with invalid python code for Types of Linked List
@@ -130,4 +130,4 @@ Feature: Linked List
 
     Examples: 
       | Sheetname  | RowNumber |
-      | pythonCode |         1 |
+      | pythonCode |         11 |
