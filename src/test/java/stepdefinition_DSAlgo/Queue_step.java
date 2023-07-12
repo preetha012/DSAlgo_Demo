@@ -22,7 +22,6 @@ public class Queue_step {
 	@Given("The user is on the Queue page after logged in")
 	public void the_user_is_on_the_queue_page_after_logged_in() {
 		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/queue/");
-	    
 	}
 
 	@When("The user clicks on the {string} link for Queue")
