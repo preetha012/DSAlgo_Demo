@@ -182,11 +182,37 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
-			</plugin>
+	</plugin>
+	  <plugin>
+        <groupId>net.masterthought</groupId>
+  	 	<artifactId>maven-cucumber-reporting</artifactId>
+	       <version>5.7.5</version>
+	<executions>
+     <execution>
+		<id>execution</id>
+		<phase>verify</phase>
+		<goals>
+		    <goal>generate</goal>
+		</goals>
+	<configuration>		
+			<projectName>CucumberPOMSeries</projectName>    
+		        <skip>false</skip>		
+		        <outputDirectory>${project.build.directory}</outputDirectory>	     
+		        <inputDirectory>${project.build.directory}</inputDirectory>
+		        <jsonFiles>
+		          <param>**/*.json</param>
+		        </jsonFiles>	
+		        <mergeFeaturesById>false</mergeFeaturesById>
+				<mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+		        <checkBuildResult>false</checkBuildResult>		    			  
+        </configuration>
+	</execution>
+    </executions>
+</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>3.0.0-M3</version>
+				<version>3.1.2</version>
 				<executions>
 					<execution>
 						<goals>
@@ -198,23 +224,15 @@
 							<includes>
 								<!-- UNCOMMENT BELOW LINE - To execute feature files with a single 
 									runner -->
-								<include>**/MyTestRunner.java</include>
-								<!-- UNCOMMENT BELOW LINE - To execute feature files with multiple 
-									runners -->
-								<!-- <include>**/*Runner.java</include> -->
+								<include>TestRunner.java</include>
+						
 							</includes>
-							<!-- UNCOMMENT BELOW 3 LINES - To execute using parallel or combination 
-								option -->
-							<parallel>methods</parallel>
-							<threadCount>4</threadCount>
-							<perCoreThreadCount>true</perCoreThreadCount>
-							<!-- UNCOMMENT BELOW 3 LINES - To execute using forking or combination 
-								option -->
-							<!-- <forkCount>2</forkCount> <reuseForks>true</reuseForks> <reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory> -->
+							
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
+			
 		</plugins>
 	</build>
  
