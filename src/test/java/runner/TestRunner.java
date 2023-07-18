@@ -26,9 +26,9 @@ import org.junit.runner.RunWith;
 				},
 		monochrome=true,  //console output color	
 		features = {"src/test/resources/features"}, //location of feature files
-		glue= {"stepdefinition_DSAlgo","hooks_DSAlgo"},//location of step definition files
+		glue= {"stepdefinition_DSAlgo","hooks_DSAlgo"})//location of step definition files
 		//tags =  "@reg ")  //tags from feature file
-			tags= "@Link")
+		//	tags= "@Link")
 
 public class TestRunner 
 	//extends AbstractTestNGCucumberTests
