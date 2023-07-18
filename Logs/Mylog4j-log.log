@@ -678,3 +678,5 @@
 ['INFO ]2023-07-18 02:25:48,564(YYYY-MM-ddHH:MM:ss.SSS][main]utilities_DSAlgo.Loggerload1)-********** Launching Sigin In Page******************
 ['INFO ]2023-07-18 02:25:51,023(YYYY-MM-ddHH:MM:ss.SSS][main]utilities_DSAlgo.Loggerload1)-****** Launching DS Intro Page******************
 ['INFO ]2023-07-18 02:26:13,992(YYYY-MM-ddHH:MM:ss.SSS][main]utilities_DSAlgo.Loggerload1)-****** Launching Array Page******************
+['WARN ]2023-07-18 09:44:56,151(YYYY-MM-ddHH:MM:ss.SSS][main]utilities_DSAlgo.Loggerload1)-*******Driver is null*****
+['WARN ]2023-07-18 09:49:49,811(YYYY-MM-ddHH:MM:ss.SSS][main]utilities_DSAlgo.Loggerload1)-*******Driver is null*****

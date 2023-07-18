@@ -9,8 +9,8 @@
 		<java.version>1.8</java.version>
 		<junit.version>4.13.1</junit.version>
 		<cucumber.version>7.12.1</cucumber.version>
-		<maven.compiler.version>3.8.1</maven.compiler.version>
-		<maven.surefire.version>2.22.2</maven.surefire.version>
+		<maven.compiler.version>3.11.0</maven.compiler.version>
+		<maven.surefire.version>3.1.2</maven.surefire.version>
 	
 	</properties>
  
@@ -48,19 +48,19 @@
     <version>2.20.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-<dependency>
+<!--<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>7.12.1</version>
-</dependency>
+</dependency>-->
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
+<!--<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.7.1</version>
     <scope>test</scope>
-</dependency>
+</dependency>-->
  	  <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -191,7 +191,8 @@
 								<!-- UNCOMMENT BELOW LINE - To execute feature files with a single 
 									runner -->
 								<include>TestRunner.java</include>
-							</includes>	
+							</includes>
+							
 						</configuration>
 					</execution>
 				</executions>
