@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
 				"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				},
 		monochrome=true,  //console output color	
-		features = {"features/"}, //location of feature files
+		features = {"src/test/resources/features"}, //location of feature files
 		glue= {"stepdefinition_DSAlgo","hooks_DSAlgo"})//location of step definition files
 		//tags =  "@reg ")  //tags from feature file
 			//tags= "@Link")
